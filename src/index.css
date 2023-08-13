@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sec-container {
+    @apply container mx-auto px-5 py-2;
+  }
+  .sec-design{
+    @apply flex flex-row justify-center items-center py-20;
+  }
+  .theme-btn {
+    @apply px-8 py-1.5 rounded-full m-1 text-white font-semibold capitalize cursor-pointer hover:bg-secondary hover:shadow-lg transition-all duration-300 ease-linear border border-primary hover:border-secondary;
+  }
+  .theme-btn-primary {
+    @apply bg-primary;
+  }
+  .theme-btn-secondary {
+    @apply bg-secondary;
+  }
+}
