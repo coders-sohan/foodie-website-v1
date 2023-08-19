@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         primary: "#e85d04",
-        secondary: "#f7b731",
+        secondary: "#ffba08",
         lightGray: "#f8f8ff",
         darkGray: "#33383e",
         darkBlack: "#070f22",
@@ -14,5 +14,5 @@ export default {
       },
     },
   },
-  plugins: [require("daisyui")],
+  // plugins: [require("daisyui")],
 };
